@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe4b5; /* Світло-помаранчевий фон */
+    padding: 10px 20px;
+}
+
+/* Логотип і назва */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Розмір логотипу */
+    margin-right: 10px; /* Відступ між логотипом і текстом */
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Навігаційне меню */
+nav a {
+    margin: 0 15px; /* Відстань між пунктами меню */
+    text-decoration: none; /* Прибираємо підкреслення */
+    font-size: 18px;
+    color: black; /* Колір тексту */
+}
+
+nav a:hover {
+    color: #ff4500; /* Зміна кольору при наведенні */
+}
