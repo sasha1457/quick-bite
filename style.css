@@ -31,3 +31,61 @@ nav a {
 nav a:hover {
     color: #ff4500; /
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5e7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.section img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+}
+.section h2 {
+    color: #333;
+    margin: 20px 0 10px;
+}
+.section p {
+    color: #666;
+    line-height: 1.6;
+}
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-container .section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.section:nth-child(odd) {
+    flex-direction: row;
+}
+.section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+@media (max-width: 768px) {
+    .section-container .section {
+        flex-direction: column;
+    }
+}
