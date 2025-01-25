@@ -114,3 +114,8 @@ body {
     flex-wrap: wrap;
     gap: 15px;
 }
+
+.text {
+    font-size: 25px;
+    text-align: center;
+}
