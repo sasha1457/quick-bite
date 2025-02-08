@@ -224,16 +224,23 @@ body {
     text-decoration: none;
 }
 
-.dropdown-list {
+.payment-container {
+    padding: 10px;
+    width: 50%;
+}
+
+.select {
     width: 100%;
     display: block;
     margin-bottom: 10px;
+    font-size: 32px;
 }
 
 .text-input {
     width: 100%;
     display: block;
     margin-bottom: 10px;
+    font-size: 32px;
 }
 
 .number-input-container {
@@ -244,4 +251,9 @@ body {
 
 .number-input {
     width: 32%;
+    font-size: 32px;
+}
+
+.sc-img {
+    float: right
 }
