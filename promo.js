@@ -2,15 +2,15 @@ let promoActivated = false;
 document.getElementById('enterButton').addEventListener('click', function() {
     var inputField = document.getElementById('inputField');
     if (promoActivated) {
-        inputField.disabled = true;
-        inputField.value = "You've already activated promo";
+        inputField.disabled = false;
+        alert("You've already activated this promo code");
         return;
     }
     if (inputField.value === "FREEBURGER") {
         promoActivated = true;
         inputField.disabled = false;
-        inputField.value = "Promo code activated";
+        alert("Promo code activated");
     } else {
-        inputField.value = "Invalid promo";
+        alert("Invalid promo code");
     }
 });
