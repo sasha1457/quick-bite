@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="card-brain.js" defer></script>
 </head>
 <body>
     <header>
@@ -26,17 +27,21 @@
                 <option value="brody">Brody</option>
                 <option value="zolochiv">Zolochiv</option>
                 <option value="mostyska">Mostyska</option>
-            </select>
-            
-            <input class="text-input" placeholder="Street">
-            
+            </select>         
+            <input class="text-input" placeholder="Street">          
             <div class="number-input-container">
                 <input class="number-input" placeholder="Street number">
                 <input class="number-input" placeholder="Entrance number">
                 <input class="number-input" placeholder="Flat number">
             </div>
+            <input id="card-number" class="card-number" placeholder="Card number">
+            <div class="card-details">
+                <input id="cvv" class="cvv" placeholder="CVV">
+                <input id="expiry-date" class="expiry-date" placeholder="MM/YY">
+            </div>
+            <button id="pay-button", class = "pay">Pay</button>
         </div>
-        <img src = "scooter.png" class = "sc-img" alt = "scooter">
+        <img src="scooter.png" class="sc-img" alt="scooter">
     </div>
 </body>
 </html>
