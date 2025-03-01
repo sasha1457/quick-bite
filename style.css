@@ -336,3 +336,26 @@ body {
     margin-top: 10px;
     width: 100%
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.city-list {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: hsl(0, 0%, 75%);
+}
