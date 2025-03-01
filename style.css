@@ -16,9 +16,10 @@ header {
     margin-right: 10px; 
 }
 
-.logo span {
-    font-size: 1px;
+.logo-p {
+    font-size: 30px;
     font-weight: bold;
+    margin: 5px;
 }
 
 nav a {
