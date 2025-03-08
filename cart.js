@@ -31,7 +31,5 @@ function updateCart() {
         total += item.price;
     });
 
-    total = Math.round(total * 2) / 2;
-
     totalPrice.textContent = total.toFixed(2);
 }
